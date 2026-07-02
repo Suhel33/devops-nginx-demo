@@ -14,3 +14,6 @@ sudo systemctl start nginx
 sudo systemctl enable nginx
 
 Webpage is kept at /var/www/nginx
+
+Happy Learning
+Train with Shubham

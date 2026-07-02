@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevOps Zero to Hero | Josh Batch 10</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #cfd9df;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .section-title h2 {
+      font-size: 2.3rem;
+      margin-bottom: 10px;
+    }
+
+    .section-title span {
+      color: #00eaff;
+    }
+
+    .roadmap {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(10px);
+      border-radius: 15px;
+      padding: 25px;
+      transition: all 0.3s ease;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    .card h3 {
+      margin-bottom: 15px;
+      color: #00eaff;
+      font-size: 1.3rem;
+    }
+
+    .card ul {
+      list-style: none;
+    }
+
+    .card ul li {
+      margin-bottom: 8px;
+      font-size: 0.95rem;
+    }
+
+    .highlight {
+      background: #00eaff;
+      color: #000;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      display: inline-block;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: rgba(0,0,0,0.4);
+      margin-top: 40px;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+      color: #cfd9df;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .cta a {
+      text-decoration: none;
+      background: #00eaff;
+      color: #000;
+      padding: 14px 35px;
+      border-radius: 30px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .cta a:hover {
+      background: #00c3cc;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>DevOps – Zero to Hero</h1>
+    <p>Complete Learning Roadmap for Josh Batch 10 Learners</p>
+  </header>
+
+  <section class="container">
+    <div class="section-title">
+      <h2>📌 <span>Learning Roadmap</span></h2>
+      <p>From fundamentals to real-world DevOps projects</p>
+    </div>
+
+    <div class="roadmap">
+
+      <div class="card">
+        <span class="highlight">Phase 1</span>
+        <h3>Linux & Networking</h3>
+        <ul>
+          <li>Linux Commands & Shell</li>
+          <li>User & Permission Management</li>
+          <li>Processes & Services</li>
+          <li>Networking Basics</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <span class="highlight">Phase 2</span>
+        <h3>Git & GitHub</h3>
+        <ul>
+          <li>Git Fundamentals</li>
+          <li>Branching & Merging</li>
+          <li>GitHub Workflow</li>
+          <li>Real-world Repositories</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <span class="highlight">Phase 3</span>
+        <h3>CI/CD Pipelines</h3>
+        <ul>
+          <li>Jenkins Basics</li>
+          <li>GitHub Actions</li>
+          <li>Pipeline as Code</li>
+          <li>Automation Best Practices</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <span class="highlight">Phase 4</span>
+        <h3>Cloud & AWS</h3>
+        <ul>
+          <li>EC2, S3, IAM</li>
+          <li>VPC & Security Groups</li>
+          <li>Load Balancer</li>
+          <li>Cloud Deployment</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <span class="highlight">Phase 5</span>
+        <h3>Docker</h3>
+        <ul>
+          <li>Containers & Images</li>
+          <li>Dockerfile</li>
+          <li>Docker Compose</li>
+          <li>Containerized Apps</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <span class="highlight">Phase 6</span>
+        <h3>Kubernetes</h3>
+        <ul>
+          <li>Pods & Services</li>
+          <li>Deployments</li>
+          <li>ConfigMaps & Secrets</li>
+          <li>Real-world K8s Projects</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <span class="highlight">Phase 7</span>
+        <h3>Monitoring & Security</h3>
+        <ul>
+          <li>Prometheus & Grafana</li>
+          <li>Logs & Metrics</li>
+          <li>DevSecOps Basics</li>
+          <li>Best Practices</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <span class="highlight">Phase 8</span>
+        <h3>Projects & Interviews</h3>
+        <ul>
+          <li>End-to-End DevOps Project</li>
+          <li>Resume & GitHub</li>
+          <li>Interview Preparation</li>
+          <li>Job-Ready Skills</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="cta">
+      <a href="#">🚀 Start Your DevOps Journey</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 | DevOps Zero to Hero – Josh Batch 10 | Designed for Learners</p>
+  </footer>
+
+</body>
+</html>

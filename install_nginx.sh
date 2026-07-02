@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This script is to install and enable nginx
+
 sudo apt-get update -y
 
 sudo pat install nginx -y

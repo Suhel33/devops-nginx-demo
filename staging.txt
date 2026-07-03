@@ -1,4 +1,0 @@
-This is a staging file
-
-This commit was done in staging branch.
-
